@@ -5,6 +5,8 @@ Bug Fixes:
 - Deprecate misspelled methods `removeMonitoreNotifier` and
   `setRegionStatePeristenceEnabled` in favor of correctly spelled alternatives.
   (#461, Marco Salis)
+- Ensure thread safety for singleton creation of `BeaconManager`,
+  `DetectionTracker`, `MonitoringStatus`, and `Stats`. (#494, Aaron Kromer)
 
 
 ### 2.9.2 / 2016-11-22
